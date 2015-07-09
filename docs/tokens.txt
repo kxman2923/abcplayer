@@ -1,0 +1,41 @@
+* Token types that have an additional value (string):
+  NumberField
+  TitleField
+  ComposerField
+  DefaultLengthField
+  MeterField
+  TempoField
+  VoiceField
+  KeyField
+
+  BaseNote
+  NoteLength
+
+* Token types that do not have a value
+  Sharp
+  DoubleSharp
+  Flat
+  DoubleFlat
+  Natural
+  Rest
+
+  OctaveUp
+  OctaveDown
+
+  BeginDoublet
+  BeginTriplet
+  BeginQuadruplet
+
+  BeginChord
+  EndChord
+
+  BeginMajorSection
+  EndMajorSection
+
+  BeginRepeat
+  EndRepeat
+
+  FirstRepeat
+  SecondRepeat
+
+  BarLine

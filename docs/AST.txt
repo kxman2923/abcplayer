@@ -1,0 +1,43 @@
+Duration
+- numerator : int
+- denominator : int
+
+Note
+- pitch : char
+- octave : int
+- accidental : int
+- duration : Duration
+- isRest : boolean
+
+Chord
+- notes : List<Note>
+
+Tuplet
+- chords : List<Chord>
+
+Measure
+- elements : List<Tuplet>
+- voice: String
+
+Repeat
+- repeatCount: int
+- measures: List<Measure>
+- firstEnding : Measure
+- secondEnding : Measure
+
+Key:
+- pitch: Pitch
+- key : enum ( Major, Minor)
+
+Piece
+- repeats : List<Repeat>
+- composer : String
+- key : Key
+- defaultLength : Duration
+- meter : Duration
+- tempo : int
+- title : String
+- index : int
+- voices: List<String>
+
+All members are private and have get/set methods.

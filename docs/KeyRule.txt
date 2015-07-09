@@ -1,0 +1,29 @@
+All keys are major:
+
+C == a minor: no flat or sharp
+
+G == e minor: f -> f#
+
+D == b minor: f -> f#; c -> c#
+
+A == f# minor: f -> f#; c -> c#; g -> g#
+
+E == c# minor: f -> f#; c -> c#; g -> g#; d -> d#
+
+B == g# minor: f -> f#; c -> c#; g -> g#; d -> d#; a -> a#
+
+G_ == F# major == e_ minor == d# minor: e -> e_; d -> d_; c -> c_; b -> b_; a -> a_; G -> G_
+
+D_ = b_ minor: e-> e_; d-> d_;       b -> b_; a -> a_; G -> G_
+
+A_ == f minor: e-> e_; d-> d_;       b -> b_; a -> a_;
+
+E_ == c minor: e-> e_; 			     b -> b_; a -> a_;
+
+B_ == g minor: e-> e_; 			     b -> b_;
+
+F == d minor:						 b -> b_;	
+
+a#m: a sharp minor: 7 sharps == C# major: 7 sharps
+
+a_m: a flat minor: 7 flats == C_ major : 7 flats

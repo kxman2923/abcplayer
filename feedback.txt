@@ -1,0 +1,43 @@
+Project 1: abc Music Player		chauvm, dhrosa, kharisx
+===========================		(grader: Sunila)
+
+Team contract: 5 / 5
+
+Design: 25 / 25
+  Milestone design: 15 / 15
+  Revised design: 10 / 10
+
+Implementation: 49 / 50
+  Warmup: 5 / 5
+  Code readability: 8 / 8
+  Specifications: 7 / 7
+  Functionality: 15 / 15
+  Our tests: 14 / 15
+    Tuplets: 2 / 2
+    Chords: 2 / 2
+    Repeats: 1 / 2
+    Voices: 2 / 2
+    Key signature: 2 / 2
+    Accidentals: 2 / 2
+    Rhythm: 3 / 3
+
+Testing: 12 / 15
+  Unit tests: 4 / 6
+  Integration tests: 6 / 6
+  Custom abc files: 2 / 3
+
+TOTAL TEAM SCORE: 91 / 95
+
+(Individual scores will include 5 points for the reflection assignment,
+ and will be posted on Stellar.)
+
+Feedback
+--------
+
+you did a great job guys. here is my feedback on few of the things i noticed. 
+
+SPECS AND TESTS: specs were very well documented (except for in Repeat class). But your testing could be better. You didn't write test for AST classes and your strategy for testing Lexer and Pasrser is not in junit tests (even though its there in revised design document). And also, you didn't check for behavior in case of invalid tokens and invalid syntax and semantics, for checking the kinds of error your program throws.
+
+IMPLEMENTATION: your program works for most of the musical constructs we gave, like chords, tuplets and voices, which is good. But it does not handle repeats spanning on multiple bars. When I try it on such example, it gives me exception """"Expected a secondRepeat token!"""". this is what I had in file in case you want to go back and test “ C D E F | F E D C |[1 C C C C | C4 :|[2 c C C C | C4 || ”.
+
+DOCUMENTATION: your original and final documents both were very neat and clear. original one was lacking in testing details, which you covered in your final revised document. your design document have a lot of helping documents, if you can pull them all in one document that would make browsing more convenient. nevertheless it covers grammar, AST, system architecture, revisions and testing. so I didn’t take points off for that.
